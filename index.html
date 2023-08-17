@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>covalsys dashboard</title>
+	    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <!----css3---->
+        <link rel="stylesheet" href="css/custom.css">
+		
+		
+		<!--google fonts -->
+	    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">-->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	   <!--google material icon-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+
+  </head>
+  <body>
+  
+
+
+<div class="wrapper">
+     
+	  <div class="body-overlay"></div>
+	 
+	 <!-------sidebar--design------------>
+	 
+	 <div id="sidebar">
+	    <div class="sidebar-header">
+		   <h3><img src="img/covalsys_logo.jpg" class="img-fluid"/><span>COVALSYS</span></h3>
+		</div>
+		<ul class="list-unstyled component m-0">
+		 <!--<li class="active">-->
+		  <!--<a href="#" class="dashboard"><i class="material-icons">dashboard</i>dashboard </a>-->
+		  <li class="dropdown">
+		  <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">dashboard</i>Dashboard
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu1">
+		     <li><a href="#">Manual</a></li>
+			 <li><a href="#">Classic</a></li>
+		  </ul>
+		  </li>
+		  </li>
+		  
+		  <li class="dropdown">
+		  <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">library_books</i>Pages
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu1">
+		     <li><a href="#">page 1</a></li>
+			 <li><a href="#">page 2</a></li>
+		  </ul>
+		  </li>
+		  
+		  
+		   <li class="dropdown">
+		  <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">apps</i>Applications
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu2">
+		     <li><a href="#">Apps 1</a></li>
+			 <li><a href="#">Apps 2</a></li>
+		  </ul>
+		  </li>
+		  
+		  
+		   <li class="dropdown">
+		  <a href="#homeSubmenu4" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">extension</i>UI Component
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu4">
+		     <li><a href="#">component 1</a></li>
+			 <li><a href="#">component 2</a></li>
+		  </ul>
+		  </li>
+		  
+		   <li class="dropdown">
+		  <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">widgets</i>Widgets
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu5">
+		     <li><a href="#">Widget 1</a></li>
+			 <li><a href="#">widgets 2</a></li>
+		  </ul>
+		  </li>
+		  
+		  <li class="dropdown">
+		  <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">grid_on</i>Forms
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu6">
+		     <li><a href="#">Form 1</a></li>
+			 <li><a href="#">Form 2</a></li>
+		  </ul>
+		  </li>
+		  
+		  
+		  <li class="dropdown">
+		  <a href="#homeSubmenu7" data-toggle="collapse" aria-expanded="false" 
+		  class="dropdown-toggle">
+		  <i class="material-icons">bar_chart</i>Charts
+		  </a>
+		  <ul class="collapse list-unstyled menu" id="homeSubmenu7">
+		     <li><a href="#">Chart 1</a></li>
+			 <li><a href="#">Chart 2</a></li>
+		  </ul>
+		  </li>
+
+		  <li><i class='fas fa-sign-out-alt' style='font-size:24px'></i>
+			<div class="login"><a href="http://localhost/covalsys/login.html">Logout</a>  
+            </div>  
+		   </li>
+		  
+		</ul>
+	 </div>
+	
+	 
+   <!-------sidebar--design- close----------->
+ 
+   
+   
+      <!-------page-content start----------->
+      <!--Top Bar Menu start-->
+	<div class="main">
+		<div class="top-bar">
+			<div class="search">
+				<input type="text" name="search" placeholder="search here">
+				<label for="search"><i class="fas fa-search"></i></label>
+			</div>
+			<div class="bell">
+				<i class="fas fa-bell"></i>
+			</div>
+			<div class="notification">
+				<i class="fas fa-comment"></i>
+			</div>
+			<div class="avatar">
+				<i class='fas fa-user-alt' style='font-size:20px'></i>
+			</div>
+	</div>
+        <!--Top bar menu ends-->
+			
+		</div> 
+		
+
+		<!--For creating the charts--> 
+		<div class="charts">
+            
+
+            <div class="charts__right">
+              <div class="charts__right__title">
+               
+                
+              </div>
+
+            <div class="charts__right__cards">
+                <div class="card1">
+				  <p>Total Income</p>
+                  <h3>$579,000</h3>
+                  <p>Saved 25%</p>
+                </div>
+
+                <div class="card2">
+				  <p>Total Experince</p>
+                  <h3>$79,000</h3>
+                  <p>Saved 20%</p>
+                </div>
+
+                <div class="card3">
+				  <p>Cash on Hand</p>
+                  <h3>$ 92,000</h3>
+                  <p>Saved 25%</p>
+                </div>
+
+                <div class="card4">
+				  <p>Net Profit Margin</p>
+                  <h3>$ 179,000</h3>
+                  <p>Saved 65%</p>
+                </div>
+            </div>
+            </div>
+          </div>
+	    </div>
+		<!--charts end-->
+		<!--for creating pie chart-->
+		<div class="pie_chart_container">
+			    <div class="piechart1"></div>
+				<div class="piechart2"></div>
+		</div>
+		<div class='barcontainer'>
+			<div class='barcontainerheader'>
+			  SENSEX(2022-23)
+			</div>
+			<div class='bar' style='height:30%'>
+			  TTS
+			  <div class='barlabel'>
+				30%
+			  </div>
+			</div>
+			<div class='bar' style='height: 35%'>
+			  SANGO
+			  <div class='barlabel'>
+				35%
+			  </div>
+			</div>
+			<div class='bar' style='height: 40%'>
+			  POSCO HYUNDAI
+			  <div class='barlabel'>
+				40%
+			  </div>
+			</div>
+			<div class='bar' style='height:45%'>
+			   SAI
+			  <div class='barlabel'>
+				45% </div>
+			</div>
+			<div class='bar' style='height:50%'>
+			  JSW
+			  <div class='barlabel'>
+				50%
+			  </div>
+			</div>
+			<div class='bar' style='height:70%'>
+			  KASA
+			  <div class='barlabel'>
+				70%
+			  </div>
+			</div>
+		</div>   
+		  
+	</div>
+   
+</div>
+
+
+
+<!-------complete html----------->
+
+
+
+
+
+  
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+  
+  
+  <script type="text/javascript">
+       $(document).ready(function(){
+	      $(".xp-menubar").on('click',function(){
+		    $("#sidebar").toggleClass('active');
+			$("#content").toggleClass('active');
+		  });
+		  
+		  $('.xp-menubar,.body-overlay').on('click',function(){
+		     $("#sidebar,.body-overlay").toggleClass('show-nav');
+		  });
+		  
+	   });
+  </script>
+  
+  
+
+
+
+  </body>
+  
+  </html>
+
+

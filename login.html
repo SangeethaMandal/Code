@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Login</div>
+        <form action="login.php" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text"placeholder="Enter your username" required name="Username">
+                </div>
+                <div class="input-box">
+                    <span class="details1">Password</span>
+                    <input type="text"placeholder="Enter your password" required name="Password">
+                </div>
+                
+                <div class="login">
+                    <label>
+                    <input class="checkbox" type="checkbox">Remember Me </label> <a href="#">Forgot Password ?</a>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Login">
+            </div>
+            <div class="signup">Not a Member?<a href="http://localhost/covalsys/login.html">SignUp Now</a>  
+            </div>
+        </form>
+    </div>
+</body>
+</html>
